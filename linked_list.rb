@@ -13,7 +13,7 @@
 # => ll.last
 # <Node 1235: value: "Test 2">
 #
-# => ll.iterator { |node| puts node.value }
+# => ll.each { |node| puts node.value }
 # Test 1
 # Test 2
 
@@ -25,7 +25,7 @@ class LinkedList
   #
   # Returns nil
   def log
-    iterator do |node|
+    each do |node|
       puts node.inspect
     end
     return nil
@@ -50,14 +50,14 @@ class LinkedList
   #
   # Returns a Node
   def last
-    return iterator
+    return each
   end
 
   # Iterate over the linked list
   # [block]: A block that recieves each Node in the linked list
   #
   # Returns the last Node in the list
-  def iterator(&block)
+  def each(&block)
     node = first
 
     while node
