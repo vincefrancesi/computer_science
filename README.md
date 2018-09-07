@@ -8,3 +8,4 @@ Simple Computer Science Examples
 [Linked List](https://github.com/vincefrancesi/computer_science/blob/master/linked_list.rb)
 [Queue](https://github.com/vincefrancesi/computer_science/blob/master/queue.rb)
 [Stack](https://github.com/vincefrancesi/computer_science/blob/master/stack.rb)
+[Trigram Index](https://github.com/vincefrancesi/computer_science/blob/master/trigram_index.rb)
